@@ -1,0 +1,39 @@
+# Standards: 1.2
+---
+- name: Install required packages
+  loop:
+    - tzdata
+    - locales
+  package:
+    name: "{{ item }}"
+    state: present
+  tags:
+    - locales
+
+- name: Install language packs
+  loop: "{{ locales_packs }}"
+  package:
+    name: "{{ item.name | default(item) }}"
+    state: "{{ item.state | default('present') }}"
+  tags:
+    - locales
+
+- name: Generate locale definitions
+  loop: "{{ locales_available }}"
+  locale_gen:
+    name: "{{ item | default(item) }}"
+    state: "{{ item.state | default('present') }}"
+  tags:
+    - locales
+
+- name: Write default locale
+  template:
+    src: locale.j2
+    dest: /etc/default/locale
+    owner: root
+    group: root
+    mode: u=rw,g=r,o=r
+  tags:
+    - locales
+
+...
