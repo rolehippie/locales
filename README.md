@@ -1,6 +1,6 @@
 # locales
 
-[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/locales) [![Build Status](https://img.shields.io/drone/build/rolehippie/locales/master?logo=drone)](https://cloud.drone.io/rolehippie/locales) [![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/locales)](https://github.com/rolehippie/locales/blob/master/LICENSE) 
+[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/locales) [![Testing Build](https://github.com/rolehippie/locales/workflows/testing/badge.svg)](https://github.com/rolehippie/locales/actions?query=workflow%3Atesting) [![Readme Build](https://github.com/rolehippie/locales/workflows/readme/badge.svg)](https://github.com/rolehippie/locales/actions?query=workflow%3Areadme) [![Galaxy Build](https://github.com/rolehippie/locales/workflows/galaxy/badge.svg)](https://github.com/rolehippie/locales/actions?query=workflow%3Agalaxy) [![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/locales)](https://github.com/rolehippie/locales/blob/master/LICENSE) 
 
 Ansible role to configure system locales. 
 
