@@ -3,6 +3,6 @@
 - name: Converge
   hosts: all
   roles:
-    - role: locales
+    - role: rolehippie.locales
 
 ...
