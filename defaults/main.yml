@@ -3,6 +3,9 @@
 # @var locales_lang:description: Default language to use on the system
 locales_lang: en_US.UTF-8
 
+# @var locales_extra:description: Optional dict of additional locales
+locales_extra: {}
+
 # @var locales_available:description: List of available locales
 locales_available:
   - en_US.UTF-8
