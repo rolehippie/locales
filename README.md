@@ -5,7 +5,7 @@
 [![Readme Workflow](https://github.com/rolehippie/locales/actions/workflows/readme.yml/badge.svg)](https://github.com/rolehippie/locales/actions/workflows/readme.yml)
 [![Galaxy Workflow](https://github.com/rolehippie/locales/actions/workflows/galaxy.yml/badge.svg)](https://github.com/rolehippie/locales/actions/workflows/galaxy.yml)
 [![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/locales)](https://github.com/rolehippie/locales/blob/master/LICENSE)
-[![Ansible Role](https://img.shields.io/ansible/role/51429)](https://galaxy.ansible.com/rolehippie/locales)
+[![Ansible Role](https://img.shields.io/badge/role-rolehippie.locales-blue)](https://galaxy.ansible.com/rolehippie/locales)
 
 Ansible role to configure system locales.
 
@@ -15,7 +15,6 @@ Building and improving this Ansible role have been sponsored by my current and p
 
 ## Table of content
 
-- [Requirements](#requirements)
 - [Default Variables](#default-variables)
   - [locales_available](#locales_available)
   - [locales_extra](#locales_extra)
@@ -27,11 +26,6 @@ Building and improving this Ansible role have been sponsored by my current and p
 - [Author](#author)
 
 ---
-
-## Requirements
-
-- Minimum Ansible version: `2.10`
-
 
 ## Default Variables
 
