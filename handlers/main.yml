@@ -1,6 +1,5 @@
-# Standards: 1.2
 ---
 - name: Update locales
-  command: dpkg-reconfigure --frontend noninteractive locales
+  ansible.builtin.command: dpkg-reconfigure --frontend noninteractive locales
 
 ...

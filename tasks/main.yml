@@ -1,10 +1,9 @@
-# Standards: 1.2
 ---
 - name: Install required packages
   loop:
     - tzdata
     - locales
-  package:
+  ansible.builtin.package:
     name: "{{ item }}"
     state: present
   tags:
@@ -12,7 +11,7 @@
 
 - name: Install language packs
   loop: "{{ locales_packs }}"
-  package:
+  ansible.builtin.package:
     name: "{{ item.name | default(item) }}"
     state: "{{ item.state | default('present') }}"
   tags:
@@ -20,14 +19,14 @@
 
 - name: Generate locale definitions
   loop: "{{ locales_available }}"
-  locale_gen:
+  community.general.locale_gen:
     name: "{{ item | default(item) }}"
     state: "{{ item.state | default('present') }}"
   tags:
     - locales
 
 - name: Write default locale
-  template:
+  ansible.builtin.template:
     src: locale.j2
     dest: /etc/default/locale
     owner: root
