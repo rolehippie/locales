@@ -84,7 +84,7 @@ locales_packs:
 
 ## Dependencies
 
-- None
+- [community.general](https://github.com/ansible-collections/community.general)
 
 ## License
 
