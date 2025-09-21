@@ -12,16 +12,16 @@
 - name: Install language packs
   loop: "{{ locales_packs }}"
   ansible.builtin.package:
-    name: "{{ item.name | default(item) }}"
-    state: "{{ item.state | default('present') }}"
+    name: "{{ item.name if item.name is defined else item }}"
+    state: "{{ 'present' if item.state is undefined else item.state }}"
   tags:
     - locales
 
 - name: Generate locale definitions
   loop: "{{ locales_available }}"
   community.general.locale_gen:
-    name: "{{ item | default(item) }}"
-    state: "{{ item.state | default('present') }}"
+    name: "{{ item.name if item.name is defined else item }}"
+    state: "{{ 'present' if item.state is undefined else item.state }}"
   tags:
     - locales
 

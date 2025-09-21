@@ -29,11 +29,15 @@ galaxy_info:
       versions:
         - focal
         - jammy
+        - noble
   galaxy_tags:
     - cronlist
     - cron
     - cronjob
 
 dependencies: []
+
+collections:
+  - community.general
 
 ...
