@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.1.0](https://github.com/rolehippie/locales/compare/v3.0.0...v3.1.0) (2025-12-08)
+
+
+### Features
+
+* **minor:** update dependency community.general to >=12.1.0,<12.2.0 ([#35](https://github.com/rolehippie/locales/issues/35)) ([468568f](https://github.com/rolehippie/locales/commit/468568f7e43814e626730af06490da9776648c22))
+
 ## [3.0.0](https://github.com/rolehippie/locales/compare/v2.1.0...v3.0.0) (2025-11-17)
 
 
