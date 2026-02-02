@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.3.0](https://github.com/rolehippie/locales/compare/v3.2.0...v3.3.0) (2026-02-02)
+
+### Dependencies
+
+* **minor:** update dependency community.general to >=12.3.0,<12.4.0 ([#46](https://github.com/rolehippie/locales/issues/46)) ([9c56503](https://github.com/rolehippie/locales/commit/9c56503a9cc33dc3b15f73fe857412ced07f41d9))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([3773902](https://github.com/rolehippie/locales/commit/3773902e7aa77a40c2873e8f85f676dea8c30eac))
+* **flake:** updated lockfile [skip ci] ([5445591](https://github.com/rolehippie/locales/commit/54455918a61a40b6a0292d4cc15d32b3965604a6))
+* **flake:** updated lockfile [skip ci] ([9382ac5](https://github.com/rolehippie/locales/commit/9382ac53bf097087af1d5aa704ee3f3d9bb5f468))
+* **flake:** updated lockfile [skip ci] ([f51b36f](https://github.com/rolehippie/locales/commit/f51b36f8279e6361b9b79a91b251bcece60a188f))
+
 ## [3.2.0](https://github.com/rolehippie/locales/compare/v3.1.0...v3.2.0) (2026-01-05)
 
 
