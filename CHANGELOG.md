@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.8.0](https://github.com/rolehippie/locales/compare/v4.7.0...v4.8.0) (2026-09-14)
+
+### Dependencies
+
+* **minor:** update dependency community.general to >=13.4.0,<13.5.0 ([#68](https://github.com/rolehippie/locales/issues/68)) ([68dad75](https://github.com/rolehippie/locales/commit/68dad75b954abdb12cc43a2ca4b792c852c55444))
+* **mise:** update dependency pipx:ansible-core to v2.21.4 ([#69](https://github.com/rolehippie/locales/issues/69)) ([64883df](https://github.com/rolehippie/locales/commit/64883df73cb4d11ef8f05b21db10089aa8e874a6))
+* **mise:** update dependency prek to v0.5.3 ([#70](https://github.com/rolehippie/locales/issues/70)) ([0321fbf](https://github.com/rolehippie/locales/commit/0321fbf2f502ddf0bfca9ec55e8d3033c2c77059))
+
 ## [4.7.0](https://github.com/rolehippie/locales/compare/v4.6.1...v4.7.0) (2026-09-07)
 
 ### Features
