@@ -1,5 +1,20 @@
 # Changelog
 
+## [4.9.0](https://github.com/rolehippie/locales/compare/v4.8.0...v4.9.0) (2026-10-12)
+
+### Dependencies
+
+* **minor:** update dependency community.general to >=13.5.0,<13.6.0 ([#79](https://github.com/rolehippie/locales/issues/79)) ([476fc42](https://github.com/rolehippie/locales/commit/476fc42e1ae7d60fa8810f823d2c9093d3aa4845))
+* **mise:** update dependency pipx:ansible-core to v2.21.5 ([#77](https://github.com/rolehippie/locales/issues/77)) ([ad06883](https://github.com/rolehippie/locales/commit/ad068831a8eab339bc42824b1be5fa7ee54d508f))
+* **mise:** update dependency pipx:ansible-doctor to v8.4.2 ([#71](https://github.com/rolehippie/locales/issues/71)) ([956659d](https://github.com/rolehippie/locales/commit/956659db2e59d3b0b83c1fe5aaa00ecacd759cc8))
+* **mise:** update dependency pipx:ansible-doctor to v8.4.3 ([#78](https://github.com/rolehippie/locales/issues/78)) ([cb9cd66](https://github.com/rolehippie/locales/commit/cb9cd66cd08025745cc903492afb145c1e147da7))
+* **mise:** update dependency pipx:ansible-lint to v26.10.0 ([#80](https://github.com/rolehippie/locales/issues/80)) ([bcc3ee1](https://github.com/rolehippie/locales/commit/bcc3ee134d83c0cbd3460fdd93b9d518cbc70ad1))
+* **mise:** update dependency pipx:ansible-lint to v26.9.0 ([#72](https://github.com/rolehippie/locales/issues/72)) ([87a20fb](https://github.com/rolehippie/locales/commit/87a20fbdffde2c58bf41af6dcbb2a27a4c350463))
+* **mise:** update dependency pipx:molecule to v26.10.0 ([#81](https://github.com/rolehippie/locales/issues/81)) ([6a11dbd](https://github.com/rolehippie/locales/commit/6a11dbdee72f96a5948ae7346e91f10efc31bb1f))
+* **mise:** update dependency pipx:molecule to v26.9.0 ([#73](https://github.com/rolehippie/locales/issues/73)) ([15de026](https://github.com/rolehippie/locales/commit/15de026b155a02b8d309735e57e81f97696062dd))
+* **mise:** update dependency prek to v0.5.4 ([#74](https://github.com/rolehippie/locales/issues/74)) ([d767e32](https://github.com/rolehippie/locales/commit/d767e32de0c1942671fb6890880f29693b0512ac))
+* **mise:** update dependency prek to v0.5.5 ([#76](https://github.com/rolehippie/locales/issues/76)) ([f2b5812](https://github.com/rolehippie/locales/commit/f2b58120ee402b858c7d457e991c714b4a85bc22))
+
 ## [4.8.0](https://github.com/rolehippie/locales/compare/v4.7.0...v4.8.0) (2026-09-14)
 
 ### Dependencies
